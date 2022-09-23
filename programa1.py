@@ -25,9 +25,14 @@ def aritmetica(valor1, valor2, op='+'):
 
     return total
 
-
 if __name__ == '__main__':
-    fator1 = 10
-    fator2 = 20
-    operacao = '+'
-    print(f'{fator1} {operacao} {fator2} = {aritmetica(fator1, fator2, "*")}')
+    nome = input('Como te chamas? ')
+    while True:
+        fator1 = float(input('Insira o prmeiro número: '))
+        fator2 = float(input('Insira o segundo número: '))
+        operacao = input('Insira a operação (+, -, :, *): ')
+        print(f'Olá {nome} {fator1} {operacao} {fator2} = {aritmetica(fator1, fator2, operacao)}')
+        continuar = input('Repetir [s] ou [n]? ')
+        if continuar == 'n':
+            break
+    print(f'Adeus {nome}!')
