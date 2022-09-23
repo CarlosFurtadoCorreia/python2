@@ -22,7 +22,7 @@ def get_letras(nota):
 if __name__ == '__main__':
     while True:
         nota = int(input('Insira a nota: '))
-        print(f'O numero {get_letras} é par.')
+        #print(f'O numero é par.')
         continuar = input('Repetir [s] ou [n]? ')
         if continuar == 'n':
             break
