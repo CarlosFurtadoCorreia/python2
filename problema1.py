@@ -6,7 +6,7 @@
 '''
 
 if __name__ == '__main__':
-    zeros = 0
+    primos = 0
     continuar = 's'
     while continuar == 's':
         num1 = int(input('Insira um primeiro número: '))
@@ -18,7 +18,7 @@ if __name__ == '__main__':
                         break
                 else:
                     print(j)
-                    zeros += 1
-        print(f'Entre o {num1} e o {num2} existem {zeros} números primos')
+                    primos += 1
+        print(f'Entre o {num1} e o {num2} existem {primos} números primos.')
         continuar = input('Repetir [s] ou [n]? ')
     print('Adeus!')
