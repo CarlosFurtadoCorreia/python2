@@ -12,7 +12,7 @@ if __name__ == '__main__':
         num1 = int(input('Insira um primeiro número: '))
         num2 = int(input('Insira um segundo número (> que o primeiro numero): '))
         for j in range(num1, num2 + 1):
-            if j >= 1:
+            if j > 1:
                 for k in range(2, j):
                     if j % k == 0:
                         break
