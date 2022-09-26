@@ -17,7 +17,6 @@ if __name__ == '__main__':
     while continuar == 's':
         numero = int(input('Insira um número: '))
         print(f'Olá, o número {numero} tem {divisores(numero)} divisores')
-        if divisores(numero) == 2:
             print(f'O número {numero} é primo.')
         else:
             print(f'O número {numero} não é primo.')
