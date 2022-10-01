@@ -17,3 +17,4 @@ def get_random(ini, fim):
     :return:
     '''
     return random.randrange(ini, fim +1)
+

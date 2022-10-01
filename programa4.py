@@ -4,7 +4,7 @@ Inserir os números pares entre 1 e o número inserido
 
 # range(start, stop, step)
 
-from programa3 import par
+from prog3_NumParImp import par
 
 if __name__ == '__main__':
     num1 = int(input('Insira o primeiro número: '))
