@@ -14,18 +14,18 @@ if __name__ == '__main__':
     num_horas = []
     total_horas = 0
     for j in range(len(semana)):
-        num_horas.append(int(input(f'Introduza o {semana[j]}: ')))
+        num_horas.append(int(input(f'Introduza o {semana[j]}: €')))
         total_horas += num_horas[j]
-    sal_hora = int(input(f'Introduza o seu salário por hora: '))
+    sal_hora = int(input(f'Introduza o seu salário por hora: €'))
     salario = sal_hora * total_horas
     if total_horas < 40:
         salario
     else:
         salario * 2
 
-    print(num_horas)
-    print(sal_hora)
-    print(total_horas)
+    print(f'Número de horas diárias: {num_horas}')
+    print(f'Salário por hora: {sal_hora}€')
+    print(f'Total de horas semanais: {total_horas}')
     print(salario)
 
 
