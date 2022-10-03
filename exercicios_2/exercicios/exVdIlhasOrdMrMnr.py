@@ -26,6 +26,19 @@ if __name__ == '__main__':
                     break
                 pos += 1
 
+    '''
+    while True:
+        troquei = False
+        for x in range(len(vendas)-1)
+            if v[x] > v[x+1]:
+                temp = v[x]
+                v[x] = v[x+1]
+                v[x+1] = temp
+                troquei = True
+        if troquei == False:
+            break
+    '''
+
     print(f'Vendas Ordenada: {vOrdenadas}')
     print(f'Menor: {vMenor}')
     print(f'Maior: {vMaior}')
