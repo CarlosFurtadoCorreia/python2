@@ -5,19 +5,18 @@ Modifique o seu programa de modo a também calcular qual a percentagem
 de notas positivas.
 '''
 
-
 def notas(nt):
     if nt >= 80 <= 100:
-        Nota = 'Muito Bom'
+        nota = 'Muito Bom'
     elif nt >= 60 <= 79:
-        Nota = 'Bom'
+        nota = 'Bom'
     elif nt >= 40 <= 59:
-        Nota = 'Suficiente'
+        nota = 'Suficiente'
     elif nt >= 20 <= 39:
-        Nota = 'Infusuficiente'
+        nota = 'Infusuficiente'
     elif nt >= 0 <= 19:
-        Nota = 'Mau'
-    return Nota
+       nota = 'Mau'
+    return nota
 
 if __name__ == '__main__':
     if __name__ == '__main__':
