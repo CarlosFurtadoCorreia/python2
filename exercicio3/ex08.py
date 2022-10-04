@@ -26,6 +26,6 @@ if __name__ == '__main__':
     print(f'Número de horas diárias: {num_horas}')
     print(f'Salário por hora: {sal_hora}€')
     print(f'Total de horas semanais: {total_horas}')
-    print(salario)
+    print(f'Salário: {salario}')
 
 
